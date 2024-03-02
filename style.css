@@ -12,11 +12,9 @@ h1{
 }
 .choice{
     height: 165px;
-    width: 165px;
+    width: auto;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 .choice:hover{
     cursor: pointer;
@@ -36,6 +34,7 @@ img{
     align-items: center;
     gap: 3rem;
     margin-top: 5rem;
+    flex-wrap: wrap;
 
 }
 
